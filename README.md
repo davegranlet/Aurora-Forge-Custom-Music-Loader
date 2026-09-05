@@ -6,13 +6,14 @@ Aurora Forge Custom Music Loader is the custom-music addon separated from Secure
 
 ## Current status
 
-**Experimental — public source separation in progress.**
+**Experimental — public source separation and loader integration in progress.**
 
 The music functionality existed and worked before AI involvement. This source was separated from the developer's existing project so the secure core loader no longer needs to own the custom-music feature.
 
 Publication does not weaken DataCtrlLink's exact-game-build checks. A packaged addon must be accepted through an explicit fail-closed loader policy. It must never depend on unrestricted scanning and execution of arbitrary native files.
 
+The compiled addon is named `AuroraForge.CustomMusicLoader.ftrib` so users, logs, documentation, and support references always identify its purpose clearly.
+
 No WWE game files, captured packages or banks, Oodle libraries, prior addon binaries, rollback copies, or research dumps are included.
 
 The canonical provenance statement is [the development and provenance FAQ](docs/DEVELOPMENT-AND-PROVENANCE-FAQ.md).
-
